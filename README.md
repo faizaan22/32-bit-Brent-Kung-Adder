@@ -1,0 +1,2 @@
+# 32-bit-Brent-Kung-Adder
+32-bit Brent-Kung Adder is a logarithmic adder which do the computation of the carry faster than ripple carry adder because the way it is designed in a tree like fashion to compute carries at each stages. Here we have used ModelSim for simulation purpose and analysis of the critical path and delays associated with it is done with Quartus timing analyzer after adding wrapper top-level module which make whole design sequential by adding registers at input and output ports of the combinational Brent-Kung adder.
